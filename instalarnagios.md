@@ -1,3 +1,3 @@
 # nagios
 Documentación del software de monitorización Nagios
-<h1> jesua marica </h1>
+<h1> jesus marica </h1>
