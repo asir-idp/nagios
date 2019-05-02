@@ -37,13 +37,13 @@ Le asignamos contraseña a dicho usuario.
 
 ![](imagenes/instalacionNAGIOS-5.png)
 
-Antes de la version 6.01 debemos crear un grupo llamado nagios, pero como nosotros utilizamos la versión 7.10 ya ubuntu nos crea el grupo directamente.
+Antes de la version 6.01 debemos crear un grupo llamado **nagios**, pero como nosotros utilizamos la versión 7.10 ya ubuntu nos crea el grupo directamente.
 
 Como ya tenemos el grupo creado procedemos a meter directamente el usuario que creamos antes en el grupo nagios.
 
 ![](imagenes/instalacionNAGIOS-6.png)
 
-Creamos el grupo nagcmd ya que tambien nos hara falta y meteremos al usuario nagios dentro de este.
+Creamos el grupo **nagcmd** ya que tambien nos hara falta y meteremos al usuario nagios dentro de este.
 
 ![](imagenes/instalacionNAGIOS-7.png)
 
@@ -53,21 +53,37 @@ Metemos al usuario de apache **www-data** en el grupo nagcmd, esto lo hacemos po
 
 ### PASO 3 Compilación e instalación de Nagios en Ubuntu ###
 
-![Procedemos a descargarnos los paquetes nagios, en nuestro caso los almacenaremos en /home/alumnonagios](instalacionNAGIOS-9.png)
+Procedemos a descargarnos los paquetes nagios, en nuestro caso los almacenaremos en **/home/alumnonagios**
 
-![Los paquetes que hemos descargados estan comprimidos, por tanto procedemos a descomprimirlos](instalacionNAGIOS-10.png)
+![](imagenes/instalacionNAGIOS-9.png)
 
-![Ejecutamos el scrip de configuración de Nagios indicandole el nombre del grupo que creamos anteriormente](imagenes/instalacionNAGIOS-11.png)
+Los paquetes que hemos descargados estan comprimidos, por tanto procedemos a descomprimirlos
 
-![Compilamos el código fuente de Nagios](imagenes/instalacionNAGIOS-12.png)
+![](imagenes/instalacionNAGIOS-10.png)
 
-![Instalamos los archivos binarios de Nagios](imagenes/instalacionNAGIOS-13.png)
+Ejecutamos el scrip de configuración de Nagios indicandole el nombre del grupo que creamos anteriormente.
 
-![A continuación instalamos otros scripts y configuraciones que nos serviran mas tarde(instalamos script de inicio)](imagenes/instalacionNAGIOS-14.png)
+![](imagenes/instalacionNAGIOS-11.png)
 
-![Instalamos ejemplos de ficheros de configuración](imagenes/instalacionNAGIOS-15.png)
+Compilamos el código fuente de Nagios.
 
-![Damos permisos al directorio de comandos externos](imagenes/instalacionNAGIOS-16.png)
+![](imagenes/instalacionNAGIOS-12.png)
+
+Instalamos los archivos binarios de Nagios.
+
+![](imagenes/instalacionNAGIOS-13.png)
+
+A continuación instalamos otros scripts y configuraciones que nos servirán mas tarde(instalamos script de inicio).
+
+![](imagenes/instalacionNAGIOS-14.png)
+
+Instalamos ejemplos de ficheros de configuración.
+
+![](imagenes/instalacionNAGIOS-15.png)
+
+Damos permisos al directorio de comandos externos.
+
+![](imagenes/instalacionNAGIOS-16.png)
 
 ### PASO 4 Personalización de la configuración ###
 
