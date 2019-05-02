@@ -11,8 +11,9 @@ Nuestro proyecto esta echo en linux,para la utilización del software de monitor
 	- GCC:librerias de desarrollo y compilación>
 	- GD:librerías de desarrollo
 
-  
-![Por tanto comenzamos con la instalación de **APACHE** mediante el comando apt-get install](imagenes/instalacionNAGIOS-1.png)
+Por tanto comenzamos con la instalación de **APACHE** mediante el comando apt-get install 
+
+![](imagenes/instalacionNAGIOS-1.png)
   
 
 ![Instalamos **PHP** mediante el comando apt-get install](imagenes/instalacionNAGIOS-2.png)
