@@ -22,7 +22,7 @@ Nuestro proyecto esta echo en linux,para la utilización del software de monitor
 
 Instalamos **GD** (version 7.10) Mediante el comando **sudo apt-get install libgd2-xpm-dev**
 
-###PASO 2 Crear informacion de cuenta de usuario###
+### PASO 2 Crear informacion de cuenta de usuario ###
 
 A partir de aqui todo lo tenemos que hacer como root, lo primero que haremos sera lo siguiente:
 
@@ -38,7 +38,7 @@ Antes de la version 6.01 debemos crear un grupo llamado nagios, pero como nosotr
 
 ![Metemos al usuario de apache **www-data** en el grupo nagcmd, esto lo hacemos por que la aplicación necesita estar dentro de este grupo para hacer sus gestiones](imagenes/instalacionNAGIOS-8.png)
 
-###PASO 3 Compilación e instalación de Nagios en Ubuntu###
+### PASO 3 Compilación e instalación de Nagios en Ubuntu ###
 
 ![Procedemos a descargarnos los paquetes nagios, en nuestro caso los almacenaremos en /home/alumnonagios](instalacionNAGIOS-9.png)
 
@@ -56,13 +56,13 @@ Antes de la version 6.01 debemos crear un grupo llamado nagios, pero como nosotr
 
 ![Damos permisos al directorio de comandos externos](imagenes/instalacionNAGIOS-16.png)
 
-###PASO 4 Personalización de la configuración###
+### PASO 4 Personalización de la configuración ###
 
 ![Una vez instalado Nagios en nuestro sistema Ubuntu lo que nos queda por hacer es la configuración, en primer lugar modificaremos la dirección de e-mail que usaremos para las notificaciones de Nagios, para esto abriremos el siguiente fichero mediante un editor de texto(/usr/local/nagios/etc/objects/contacts.cfg)](imagenes/instalacionNAGIOS-17.png)
 
 ![Ahora utilizaremos un comando que en primer lugar chequeara todos los componentes de nuestro nagios, una vez echo procedera a configurarlos uno a uno](imagenes/NAGIOS-25.png)
 
-###PASO 5 Configuración de la Interfaz Web###
+### PASO 5 Configuración de la Interfaz Web ###
 
 Instalamos el archivo de configuración de Nagios para Apache, con esto podemos ver y administrar Nagios via web, esto lo haremos con el comando **make install-webconf**
 
@@ -70,13 +70,13 @@ Instalamos el archivo de configuración de Nagios para Apache, con esto podemos 
 
 ![Reiniciamos Apache para que los cambios surtan efecto](imagenes/instalacionNAGIOS-19.png)
 
-###PASO 6 Compilar e Instalar los plugins de Nagios###
+### PASO 6 Compilar e Instalar los plugins de Nagios ###
 
 ![A continuacion procedemos a descargar los plugins que instalaremos en nuestro nagios, la descarga se hara comprimida asi que posteriormente tendremos que descomprimir el archivo](imagenes/instalacionNAGIOS-24.png)
 
 
 
-###Paso 7 Inicio de Nagios en Ubuntu###
+### Paso 7 Inicio de Nagios en Ubuntu ###
 
 ![Ahora vamos a configurar Nagios para que se inicie automáticamente junto con Ubuntu. Para ello usamos el script que hemos generado antes con **"make install-init"**](imagenes/instalacionNAGIOS-20.png)
 
