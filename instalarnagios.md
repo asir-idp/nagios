@@ -4,7 +4,7 @@
 ## INSTALACIÓN NAGIOS ##
 
 ### PASO 1 Prerrequisitos ###
-Nuestro proyecto esta echo en linux,para la utilización del software de monitorización nagios en este sistema operativo necesitaremos lo siguiente
+Nuestro proyecto esta echo en linux,para la utilización del software de monitorización nagios en este sistema operativo necesitaremos lo siguiente:
 
 	- Apache
 	- PHP
@@ -15,11 +15,13 @@ Por tanto comenzamos con la instalación de **APACHE** mediante el comando apt-g
 
 ![](imagenes/instalacionNAGIOS-1.png)
   
+Instalamos **PHP** mediante el comando apt-get install
 
-![Instalamos **PHP** mediante el comando apt-get install](imagenes/instalacionNAGIOS-2.png)
+![](imagenes/instalacionNAGIOS-2.png)
 
-  
-![Instalamos **GCC** mediante el comando apt-get install](imagenes/instalacionNAGIOS-3.png)
+Instalamos **GCC** mediante el comando apt-get install 
+
+![](imagenes/instalacionNAGIOS-3.png)
 
 Instalamos **GD** (version 7.10) Mediante el comando **sudo apt-get install libgd2-xpm-dev**
 
@@ -27,17 +29,27 @@ Instalamos **GD** (version 7.10) Mediante el comando **sudo apt-get install libg
 
 A partir de aqui todo lo tenemos que hacer como root, lo primero que haremos sera lo siguiente:
 
-![Creamos una nueva cuenta de usuario llamada "nagios"](imagenes/instalacionNAGIOS-4.png)
+Creamos una nueva cuenta de usuario llamada "nagios".
 
-![Le asignamos contraseña a dicho usuario](imagenes/instalacionNAGIOS-5.png)
+![](imagenes/instalacionNAGIOS-4.png)
+
+Le asignamos contraseña a dicho usuario.
+
+![](imagenes/instalacionNAGIOS-5.png)
 
 Antes de la version 6.01 debemos crear un grupo llamado nagios, pero como nosotros utilizamos la versión 7.10 ya ubuntu nos crea el grupo directamente.
 
-![Como ya tenemos el grupo creado procedemos a meter directamente el usuario que creamos enates en el grupo nagios](imagenes/instalacionNAGIOS-6.png)
+Como ya tenemos el grupo creado procedemos a meter directamente el usuario que creamos antes en el grupo nagios.
 
-![Creamos el grupo nagcmd ya que tambien nos hara falta y meteremos al usuario dentro de este](imagenes/instalacionNAGIOS-7.png)
+![](imagenes/instalacionNAGIOS-6.png)
 
-![Metemos al usuario de apache **www-data** en el grupo nagcmd, esto lo hacemos por que la aplicación necesita estar dentro de este grupo para hacer sus gestiones](imagenes/instalacionNAGIOS-8.png)
+Creamos el grupo nagcmd ya que tambien nos hara falta y meteremos al usuario nagios dentro de este.
+
+![](imagenes/instalacionNAGIOS-7.png)
+
+Metemos al usuario de apache **www-data** en el grupo nagcmd, esto lo hacemos por que la aplicación necesita estar dentro de este grupo para hacer sus gestiones
+
+![](imagenes/instalacionNAGIOS-8.png)
 
 ### PASO 3 Compilación e instalación de Nagios en Ubuntu ###
 
