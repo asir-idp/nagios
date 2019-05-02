@@ -93,7 +93,7 @@ Una vez instalado Nagios en nuestro sistema Ubuntu lo que nos queda por hacer es
 
 Ahora utilizaremos un comando que en primer lugar chequeara todos los componentes de nuestro nagios, una vez echo procedera a configurarlos uno a uno.
 
-![](imagenes/NAGIOS-25.png)
+![](imagenes/instalacionNAGIOS-25.png)
 
 ### PASO 5 Configuración de la Interfaz Web ###
 
