@@ -1,6 +1,6 @@
 
 # Proyecto IDP NAGIOS #
-=======================
+
 ## INSTALACIÓN NAGIOS ##
 
 ### PASO 1 Prerrequisitos ###
@@ -87,31 +87,47 @@ Damos permisos al directorio de comandos externos.
 
 ### PASO 4 Personalización de la configuración ###
 
-![Una vez instalado Nagios en nuestro sistema Ubuntu lo que nos queda por hacer es la configuración, en primer lugar modificaremos la dirección de e-mail que usaremos para las notificaciones de Nagios, para esto abriremos el siguiente fichero mediante un editor de texto(/usr/local/nagios/etc/objects/contacts.cfg)](imagenes/instalacionNAGIOS-17.png)
+Una vez instalado Nagios en nuestro sistema Ubuntu lo que nos queda por hacer es la configuración, en primer lugar modificaremos la dirección de e-mail que usaremos para las notificaciones de Nagios, para esto abriremos el siguiente fichero mediante un editor de texto **/usr/local/nagios/etc/objects/contacts.cfg**
 
-![Ahora utilizaremos un comando que en primer lugar chequeara todos los componentes de nuestro nagios, una vez echo procedera a configurarlos uno a uno](imagenes/NAGIOS-25.png)
+![](imagenes/instalacionNAGIOS-17.png)
+
+Ahora utilizaremos un comando que en primer lugar chequeara todos los componentes de nuestro nagios, una vez echo procedera a configurarlos uno a uno.
+
+![](imagenes/NAGIOS-25.png)
 
 ### PASO 5 Configuración de la Interfaz Web ###
 
 Instalamos el archivo de configuración de Nagios para Apache, con esto podemos ver y administrar Nagios via web, esto lo haremos con el comando **make install-webconf**
 
-![Creamos un usuario llamado nagiosadmin, dicho usuario podra acceder vía web a Nagios](imagenes/instalacionNAGIOS-18.png)
+Creamos un usuario llamado nagiosadmin, dicho usuario podra acceder vía web a Nagios.
 
-![Reiniciamos Apache para que los cambios surtan efecto](imagenes/instalacionNAGIOS-19.png)
+![](imagenes/instalacionNAGIOS-18.png)
+
+Reiniciamos Apache para que los cambios surtan efecto.
+
+![](imagenes/instalacionNAGIOS-19.png)
 
 ### PASO 6 Compilar e Instalar los plugins de Nagios ###
 
-![A continuacion procedemos a descargar los plugins que instalaremos en nuestro nagios, la descarga se hara comprimida asi que posteriormente tendremos que descomprimir el archivo](imagenes/instalacionNAGIOS-24.png)
+A continuacion procedemos a descargar los plugins que instalaremos en nuestro nagios, la descarga se hara comprimida asi que posteriormente tendremos que descomprimir el archivo
 
+![](imagenes/instalacionNAGIOS-24.png)
 
 
 ### Paso 7 Inicio de Nagios en Ubuntu ###
 
-![Ahora vamos a configurar Nagios para que se inicie automáticamente junto con Ubuntu. Para ello usamos el script que hemos generado antes con **"make install-init"**](imagenes/instalacionNAGIOS-20.png)
+Ahora vamos a configurar Nagios para que se inicie automáticamente junto con Ubuntu. Para ello usamos el script que hemos generado antes con **"make install-init"**
 
-![Verificamos que las configuraciones e instalación de Nagios en Ubuntu están bien, si hubieramos configurado algo mal durante la instalación sería en este punto donde aparecerían los errores](imagenes/instalacionNAGIOS-21.png)
+![](imagenes/instalacionNAGIOS-20.png)
 
-![A continuación se nos muestra el informe que nos genera el comando anterior los fallos que hemos tenido durante la instalación](imagenes/instalacionNAGIOS-22.png)
+Verificamos que las configuraciones e instalación de Nagios en Ubuntu están bien, si hubieramos configurado algo mal durante la instalación sería en este punto donde aparecerían los errores.
 
-![Al no tener errores procedemos a iniciar el nagios](imagenes/instalacionNAGIOS-23.png)
+![](imagenes/instalacionNAGIOS-21.png)
+
+A continuación se nos muestra el informe que nos genera el comando anterior los fallos que hemos tenido durante la instalación.
+
+![](imagenes/instalacionNAGIOS-22.png)
+
+Al no tener errores procedemos a iniciar el nagios.
+![](imagenes/instalacionNAGIOS-23.png)
 
