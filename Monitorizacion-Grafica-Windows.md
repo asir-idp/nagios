@@ -2,7 +2,6 @@
 =======================
 ##Monitorizacion grafica del nagios desde una maquina servidora real a una maquina cliente real##
 
-###PASO 1###
 
 Nos conectamos desde nuestra maquina cliente a la ip de la maquina servidora en este caso **10.1.1.154** para descargarnos el programa de version cliente para poder monitorizar desde nuestra maquina servidora al PC cliente
 
@@ -60,7 +59,13 @@ Ahora hacemos clic en "install" y empezará nuestra instalación.
 Una vez finalizada la instalación le damos a "finish" para completar la instalación de manera correcta.
 ![](monitorizacion_nagios/18.PNG)
 
-Ahora procedemos a monitorizar el equipo.
+Ahora procedemos a monitorizar el equipo utilizando un programa de benchmarks (heaven benchmarks) para meterle rendimiento al PC Cliente y que nos salten los avisos que configuramos anteriormente
+
+En la primera vemos que no ocurre nada ya que tienen que pasar unos segundos hasta la primera monitorizacion de los componentes del pc cliente 
 ![](monitorizacion_nagios/19.png)
+
+Aqui ya vemos como el uso de la CPU salta al 52% - Disco duro al 24% y el uso de la RAM al 22%
 ![](monitorizacion_nagios/20.png)
+
+Y aqui unos minutos mas tarde vemos como el consumo de la CPU - RAM - Disco duro suben de rendimiento
 ![](monitorizacion_nagios/21.png)
