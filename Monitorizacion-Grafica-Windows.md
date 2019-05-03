@@ -14,6 +14,7 @@ Ahora empezamos la intalación de nagios.
 
 Introducimos los datos de nuestra cuenta (nombre de usuario, contraseña, email) y le damos a "finish install" (instalar).
 ![](monitorizacion_nagios/3.PNG)
+
 Esperamos a que finalice la instalacion.
 ![](monitorizacion_nagios/4.PNG)
 
