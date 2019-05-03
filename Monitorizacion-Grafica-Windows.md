@@ -60,7 +60,7 @@ Ahora hacemos clic en "install" y empezará nuestra instalación.
 Una vez finalizada la instalación le damos a "finish" para completar la instalación de manera correcta.
 ![](monitorizacion_nagios/18.PNG)
 
-Ahora procedemos a monitorear el equipo.
-![](monitorizacion_nagios/19.PNG)
-![](monitorizacion_nagios/20.PNG)
-![](monitorizacion_nagios/21.PNG)
+Ahora procedemos a monitorizar el equipo.
+![](monitorizacion_nagios/19.png)
+![](monitorizacion_nagios/20.png)
+![](monitorizacion_nagios/21.png)
