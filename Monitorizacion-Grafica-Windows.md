@@ -7,7 +7,7 @@ Nos conectamos desde nuestra maquina cliente a la ip de la maquina servidora en 
 
 
 En primer lugar introducimos la ip "10.1.1.154" para poder acceder a Nagios.
-![](monitorizacion_nagios/1.PNG)
+![](imagenes/monitorizacion/1.PNG)
 
 Ahora empezamos la intalación de nagios.
 ![](monitorizacion_nagios/2.PNG)
