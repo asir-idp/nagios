@@ -10,43 +10,43 @@ En primer lugar introducimos la ip "10.1.1.154" para poder acceder a Nagios.
 ![](imagenes/monitorizacion/1.PNG)
 
 Ahora empezamos la intalación de nagios.
-![](monitorizacion_nagios/2.PNG)
+![](imagenes/monitorizacion/2.PNG)
 
 Introducimos los datos de nuestra cuenta (nombre de usuario, contraseña, email) y le damos a "finish install" (instalar).
-![](monitorizacion_nagios/3.PNG)
+![](imagenes/monitorizacion/3.PNG)
 
 Esperamos a que finalice la instalacion.
-![](monitorizacion_nagios/4.PNG)
+![](imagenes/monitorizacion/4.PNG)
 
 Una vez finalizada la instalación nos da las credenciales con las cuales deberemos acceder a nuestra cuenta. Acto seguido le damos a "iniciar sesión en nagios xi"
-![](monitorizacion_nagios/5.PNG)
+![](imagenes/monitorizacion/5.PNG)
 
 Ahora accedemos a nuestra cuenta con el usuario y la contraseña que nos facilitaron anteriormente. 
-![](monitorizacion_nagios/6.PNG)
+![](imagenes/monitorizacion/6.PNG)
 
 Ya estamos dentro de Nagios xi. 
-![](monitorizacion_nagios/7.PNG)
+![](imagenes/monitorizacion/7.PNG)
 
 Ahora dentro de la página principal pinchamos en "ejecutar un asistente".
-![](monitorizacion_nagios/8.PNG)
+![](imagenes/monitorizacion/8.PNG)
 
 Ahora nos van a mostrar los diferentes asistentes que hay, nosotros como vamos a monitorizar un windows, tenemos que seleccionar la opción que pone "Windows Desktop".
-![](monitorizacion_nagios/9.PNG)
+![](imagenes/monitorizacion/9.PNG)
 
 Buscamos la dirección ip del servidor al que nos vamos a conectar, y la introducimos en la casilla de "Dirección IP".
-![](monitorizacion_nagios/10.PNG)
+![](imagenes/monitorizacion/10.PNG)
 
 Una vez hayamos puesto la dirección ip, descargamos "64-Bit Agente", que es la opción de 64 bits.
-![](monitorizacion_nagios/11.PNG)
+![](imagenes/monitorizacion/11.PNG)
 
 Ahora procedemos a instalarlo.
-![](monitorizacion_nagios/12.PNG)
+![](imagenes/monitorizacion/12.PNG)
 
 Luego ponemos la opción "Generic".
-![](monitorizacion_nagios/13.PNG)
+![](imagenes/monitorizacion/13.PNG)
 
 Ahora nos dice que elijamos el tipo de configuración. Nosotros vamos a elegir la opción "Typical".
-![](monitorizacion_nagios/14.PNG)
+![](imagenes/monitorizacion/14.PNG)
 
 Le damos a "next" (siguiente).
 ![](monitorizacion_nagios/15.PNG)
