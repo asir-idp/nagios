@@ -49,24 +49,24 @@ Ahora nos dice que elijamos el tipo de configuración. Nosotros vamos a elegir l
 ![](imagenes/monitorizacion/14.PNG)
 
 Le damos a "next" (siguiente).
-![](monitorizacion_nagios/15.PNG)
+![](imagenes/monitorizacion/15.PNG)
 
 Acto seguido en la casilla de "Password", escribimos nuestra contraseña, que en este caso es "idp1234$".
-![](monitorizacion_nagios/16.PNG)
+![](imagenes/monitorizacion/16.PNG)
 
 Ahora hacemos clic en "install" y empezará nuestra instalación.
-![](monitorizacion_nagios/17.PNG)
+![](imagenes/monitorizacion/17.PNG)
 
 Una vez finalizada la instalación le damos a "finish" para completar la instalación de manera correcta.
-![](monitorizacion_nagios/18.PNG)
+![](imagenes/monitorizacion/18.PNG)
 
 Ahora procedemos a monitorizar el equipo utilizando un programa de benchmarks (heaven benchmarks) para meterle rendimiento al PC Cliente y que nos salten los avisos que configuramos anteriormente
 
 En la primera vemos que no ocurre nada ya que tienen que pasar unos segundos hasta la primera monitorizacion de los componentes del pc cliente 
-![](monitorizacion_nagios/19.png)
+![](imagenes/monitorizacion/19.png)
 
 Aqui ya vemos como el uso de la CPU salta al 52% - Disco duro al 24% y el uso de la RAM al 22%
-![](monitorizacion_nagios/20.png)
+![](imagenes/monitorizacion/20.png)
 
 Y aqui unos minutos mas tarde vemos como el consumo de la CPU - RAM - Disco duro suben de rendimiento
-![](monitorizacion_nagios/21.png)
+![](imagenes/monitorizacion/21.png)
