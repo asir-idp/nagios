@@ -109,13 +109,23 @@ Reiniciamos Apache para que los cambios surtan efecto.
 
 ### PASO 6 Compilar e Instalar los plugins de Nagios ###
 
-A continuacion procedemos a descargar los plugins que instalaremos en nuestro nagios, la descarga se hara comprimida asi que posteriormente tendremos que descomprimir el archivo
+A continuacion procedemos a descargar los plugins que instalaremos en nuestro nagios, la descarga se hara comprimida asi que posteriormente tendremos que descomprimir el archivo.
 
 ![](imagenes/instalacion/instalacionNAGIOS-24.png)
 
-Procedemos a descomprimir el archivo plugin que hemos descargado
+Procedemos a descomprimir el archivo plugin que hemos descargado.
 
 ![](imagenes/instalacion/instalacionNAGIOS-30.png)
+
+Una vez descomprimidos los plugins procedemos a instalarlos.
+
+![](imagenes/instalacion/instalacionNAGIOS-31.png)
+
+![](imagenes/instalacion/instalacionNAGIOS-32.png)
+
+Como ya los tenemos instalados procedemos a ejecutarlos.
+
+![](imagenes/instalacion/instalacionNAGIOS-33.png)
 
 ### Paso 7 Inicio de Nagios en Ubuntu ###
 
