@@ -113,6 +113,9 @@ A continuacion procedemos a descargar los plugins que instalaremos en nuestro na
 
 ![](imagenes/instalacion/instalacionNAGIOS-24.png)
 
+Procedemos a descomprimir el archivo plugin que hemos descargado
+
+![](imagenes/instalacion/instalacionNAGIOS-30.png)
 
 ### Paso 7 Inicio de Nagios en Ubuntu ###
 
